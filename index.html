@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./main.css">
+    <title>SNAKE</title>
+</head>
+<body>
+    <div id="conteudo">
+        <h1>Desafio Jovem Genios</h1>
+            <div id="menu">
+                <h2>Quantos Jogadores?</h2>
+                <div class="opt">
+                    <button type="button" id="single" onclick="singlePlayer()">1 Jogador</button>
+                    <button type="button" id="mult" onclick="multiPlayer()">2 Jogadores</button>
+                </div>
+            </div>
+        <canvas id = "arena" height="400" width="400"></canvas>
+        <div class="buttons">
+            <h1>Controles</h1>
+            <button type="button" id='cima'>↑</button>
+            <div class="div-side">
+                <button type="button" id="esquerda">←</button>
+                <button type="button" id="restart">Restart</button>
+                <button type="button" id="direita">→</button>
+            </div>
+            <button type="button" id="baixo">↓</button>
+        </div>
+        <footer>
+                <P>Desenvolvido por Guilherme Andrade</P>
+        </footer>
+    </div>
+    
+    <script src="./master.js"></script>
+    
+</body>
+</html>
